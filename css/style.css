@@ -1,0 +1,51 @@
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #f6f3ee;
+}
+* {
+  box-sizing: border-box;
+}
+
+.grade-card {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.grade-title {
+  color: #1576D6;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.grade-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.grade-result-box {
+  border-radius: 12px;
+  border: 1px solid #f0c869;
+  background-color: #fffdf6;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.converter-wrapper {
+  max-width: 920px;
+}
+
+.form-control::placeholder {
+  color: #b8b8b8;
+  font-size: 0.9rem;
+}
+
+.img {
+  background-image: url("../img/Rectangle\ 66.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 280px;
+}
