@@ -1,6 +1,6 @@
 const meters = document.querySelector(".meters");
 const btn = document.querySelector(".btn");
-const result = document.querySelector(".grade-result-box");
+const result = document.querySelector(".result-box");
 
 
 
